@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Computer Force - Product Details</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .product-detail {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      padding: 20px;
+      justify-content: center;
+    }
+    .product-block {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      max-width: 800px;
+      margin-bottom: 40px;
+    }
+    .product-block img {
+      width: 250px;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+    .specs {
+      text-align: left;
+    }
+  </style>
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+  <header>
+    <div class="logo"><img src="images/logo.png" alt="Computer Force Logo" class="logo-img"></div>
+    <input type="text" placeholder="Search...">
+    <div class="user-actions">
+      <a href="about.html" class="btn">About</a>
+      <a href="cart.html" class="btn">Cart</a>
+      <a href="#">Login / Signup</a>
+      <img src="images/cart.png" alt="Cart" class="cart-icon">
+    </div>
+  </header>
+    
+
+  <section class="cta">
+    <h2>Connect with our wide range of tech</h2>
+  </section>
+
+  <main>
+    <h1>Product Details</h1>
+    <div class="product-detail">
+      <!-- Laptops -->
+      <div class="product-block" id="elitebook">
+        <img src="images/laptop1.jpg" alt="HP EliteBook">
+        <div class="specs">
+          <h2>HP EliteBook</h2>
+          <ul><li>Intel i7, 16GB RAM, 512GB SSD</li><li>14" Full HD</li><li>Windows 11 Pro</li></ul>
+          <p>Professional-grade laptop for everyday work and mobility.</p>
+        </div>
+      </div>
+      <div class="product-block" id="xps13">
+        <img src="images/laptop2.jpg" alt="Dell XPS 13">
+        <div class="specs">
+          <h2>Dell XPS 13</h2>
+          <ul><li>Intel i7, 16GB RAM, 1TB SSD</li><li>13.3" 4K UHD</li><li>Windows 11 Home</li></ul>
+          <p>Compact power with premium design and display.</p>
+        </div>
+      </div>
+      <div class="product-block" id="macbookair">
+        <img src="images/laptop3.jpg" alt="MacBook Air">
+        <div class="specs">
+          <h2>MacBook Air</h2>
+          <ul><li>Apple M2 Chip</li><li>8GB RAM, 256GB SSD</li><li>macOS Ventura</li></ul>
+          <p>Lightweight and powerful for creative tasks and portability.</p>
+        </div>
+      </div>
+      <div class="product-block" id="thinkpad">
+        <img src="images/laptop4.jpg" alt="Lenovo ThinkPad">
+        <div class="specs">
+          <h2>Lenovo ThinkPad</h2>
+          <ul><li>AMD Ryzen 7</li><li>16GB RAM, 1TB SSD</li><li>Windows 10 Pro</li></ul>
+          <p>Durable business laptop with strong performance and security.</p>
+        </div>
+      </div>
+
+      <!-- Desktops -->
+      <div class="product-block" id="optiplex">
+        <img src="images/desktop1.jpg" alt="Dell OptiPlex">
+        <div class="specs">
+          <h2>Dell OptiPlex</h2>
+          <ul><li>Intel i5, 8GB RAM, 1TB HDD</li><li>Windows 10</li></ul>
+          <p>Reliable desktop for office and productivity needs.</p>
+        </div>
+      </div>
+      <div class="product-block" id="pavilion">
+        <img src="images/desktop2.jpg" alt="HP Pavilion">
+        <div class="specs">
+          <h2>HP Pavilion</h2>
+          <ul><li>Intel i7, 16GB RAM, 512GB SSD</li><li>Wi-Fi & Bluetooth</li></ul>
+          <p>Stylish desktop for home and creative use.</p>
+        </div>
+      </div>
+      <div class="product-block" id="imac">
+        <img src="images/desktop3.jpg" alt="iMac 24">
+        <div class="specs">
+          <h2>iMac 24"</h2>
+          <ul><li>Apple M1 Chip</li><li>8GB RAM, 256GB SSD</li><li>macOS</li></ul>
+          <p>All-in-one computer with stunning display and design.</p>
+        </div>
+      </div>
+      <div class="product-block" id="gamingrig">
+        <img src="images/desktop4.jpg" alt="Gaming Rig">
+        <div class="specs">
+          <h2>Gaming Rig X</h2>
+          <ul><li>Intel i9, RTX 4070</li><li>32GB RAM, 2TB SSD</li></ul>
+          <p>High-performance machine built for gamers and creators.</p>
+        </div>
+      </div>
+
+      <!-- Tablets -->
+      <div class="product-block" id="ipadair">
+        <img src="images/tablet1.jpg" alt="iPad Air">
+        <div class="specs">
+          <h2>iPad Air</h2>
+          <ul><li>10.9" Liquid Retina</li><li>64GB Storage</li><li>iPadOS</li></ul>
+          <p>Versatile tablet for entertainment and light productivity.</p>
+        </div>
+      </div>
+      <div class="product-block" id="tabs8">
+        <img src="images/tablet2.jpg" alt="Samsung Tab S8">
+        <div class="specs">
+          <h2>Samsung Tab S8</h2>
+          <ul><li>11" Display</li><li>8GB RAM, 128GB Storage</li><li>Android</li></ul>
+          <p>Powerful Android tablet with S-Pen support.</p>
+        </div>
+      </div>
+      <div class="product-block" id="tabm10">
+        <img src="images/tablet3.jpg" alt="Lenovo Tab M10">
+        <div class="specs">
+          <h2>Lenovo Tab M10</h2>
+          <ul><li>10.1" HD Display</li><li>32GB Storage</li><li>Android</li></ul>
+          <p>Budget-friendly tablet for casual use and streaming.</p>
+        </div>
+      </div>
+      <div class="product-block" id="surfacego">
+        <img src="images/tablet4.jpg" alt="Surface Go">
+        <div class="specs">
+          <h2>Microsoft Surface Go</h2>
+          <ul><li>Intel Pentium Gold</li><li>4GB RAM, 64GB eMMC</li><li>Windows 11</li></ul>
+          <p>Ultra-portable Windows tablet for students and travel.</p>
+        </div>
+      </div>
+    </div>
+
+    <br><a href="products.html" class="back-button">BACK</a>
+  
+<div style="text-align:center; margin-top: 30px;">
+    <button onclick="history.back()" class="btn">Back</button>
+</div>
+</main>
+
+  <footer>
+    <p>&copy; 2025 Giovane Pinto. All rights reserved.</p>
+    <p>Opening Hours: Mon-Fri 9am - 5pm</p>
+  </footer>
+</body>
+</html>
