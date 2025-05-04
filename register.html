@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Force</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Computer Force Logo" class="logo">
+    </header>
+    
+
+    <nav class="menu">
+        <div class="menu-left">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="register.html">Register</a>
+            <a href="about.html">About</a>
+        </div>
+        <div class="menu-right">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
+    </nav>
+
+    <main>
+        <section class="main-content">
+            <h1>Registration Form</h1>
+            <p>Please complete the following form to register for an account on our website.</p>
+
+            <form method="POST" action="#">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+
+                <label for="notes">Notes:</label><br>
+                <textarea id="notes" name="notes"></textarea><br>
+
+                <label for="username">Username*:</label><br>
+                <input type="text" id="username" name="username" required><br>
+
+                <label for="email">Email Address*:</label><br>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="password">Password*:</label><br>
+                <input type="password" id="password" name="password" required><br>
+
+                <label for="confirm">Confirm Password*:</label><br>
+                <input type="password" id="confirm" name="confirm" required><br>
+
+                <label for="firstname">First Name*:</label><br>
+                <input type="text" id="firstname" name="firstname" required><br>
+
+                <label for="surname">Surname*:</label><br>
+                <input type="text" id="surname" name="surname" required><br>
+
+                <label>Gender*:</label><br>
+                <input type="radio" name="gender" value="male" required> Male
+                <input type="radio" name="gender" value="female"> Female<br>
+
+                <label for="dob">Date of Birth:</label><br>
+                <input type="date" id="dob" name="dob"><br>
+
+                <label for="address">Address*:</label><br>
+                <input type="text" id="address" name="address" required><br>
+
+                <label for="suburb">Suburb*:</label><br>
+                <input type="text" id="suburb" name="suburb" required><br>
+
+                <label for="postcode">Postcode*:</label><br>
+                <input type="text" id="postcode" name="postcode" required><br>
+
+                <label for="state">State*:</label><br>
+                <select id="state" name="state" required>
+                    <option value="">Select State</option>
+                    <option value="ACT">ACT</option>
+                    <option value="NSW">NSW</option>
+                    <option value="NT">NT</option>
+                    <option value="QLD">QLD</option>
+                    <option value="SA">SA</option>
+                    <option value="TAS">TAS</option>
+                    <option value="VIC">VIC</option>
+                    <option value="WA">WA</option>
+                </select><br>
+
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone"><br><br>
+
+                <input type="reset" value="Clear">
+                <input type="submit" value="Register">
+            </form>
+        </section>
+
+        <aside>
+            <h2>Purchases</h2>
+            <table>
+                <tr>
+                    <td>0 items.</td>
+                    <td>Cart sub-total: $0.</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button>Go to Checkout</button></td>
+                </tr>
+            </table>
+        </aside>
+    
+<div style="text-align:center; margin-top: 30px;">
+    <button onclick="history.back()" class="btn">Back</button>
+</div>
+</main>
+
+    <footer>
+        <p>&copy; 2025 Giovane Pinto</p>
+    </footer>
+</body>
+</html>
